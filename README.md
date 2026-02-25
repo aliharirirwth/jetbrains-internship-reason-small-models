@@ -80,7 +80,7 @@ pip install -r mlm/requirements.txt
 python -m mlm.run_compute_experiment --out_dir mlm/figures
 ```
 
-**Output:** `mlm/figures/accuracy_vs_compute.png` — BERT vs TRM under the same compute.
+**Output:** `mlm/figures/accuracy_vs_compute.png` — BERT vs TRM under the same compute. If the TRM curve appears near zero, see [TRM curve near zero](mlm/README.md#trm-curve-near-zero) in [mlm/README.md](mlm/README.md) for the explanation.
 
 | Accuracy vs compute |
 |---------------------|

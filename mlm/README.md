@@ -20,7 +20,9 @@ This downloads WikiText-2 (smaller than 103 for speed), tokenizes, and trains bo
 - `mlm/figures/accuracy_vs_compute.png`
 - `mlm/figures/accuracy_vs_compute.json`
 
-**Note:** With default hyperparameters, the TRM curve often sits near zero (accuracy = 1/perplexity). TRM’s perplexity stays very high in this MLM setup, so the plot is correct—it reflects that TRM may need extra tuning (e.g. learning rate, initialization, or more steps) for comparable perplexity to BERT.
+### TRM curve near zero
+
+With default hyperparameters, the TRM curve often sits near zero (accuracy = 1/perplexity). TRM’s perplexity stays very high in this MLM setup, so the plot is correct—it reflects that TRM may need extra tuning (e.g. learning rate, initialization, or more steps) for comparable perplexity to BERT.
 
 ## Options
 
