@@ -1,0 +1,68 @@
+{
+  "mlp": [
+    {
+      "depth": 1,
+      "accuracy": 0.09875
+    },
+    {
+      "depth": 2,
+      "accuracy": 0.1975
+    },
+    {
+      "depth": 4,
+      "accuracy": 0.39
+    },
+    {
+      "depth": 8,
+      "accuracy": 0.71875
+    },
+    {
+      "depth": 16,
+      "accuracy": 0.71875
+    }
+  ],
+  "bert": [
+    {
+      "depth": 1,
+      "accuracy": 0.12375
+    },
+    {
+      "depth": 2,
+      "accuracy": 0.24375
+    },
+    {
+      "depth": 4,
+      "accuracy": 0.4725
+    },
+    {
+      "depth": 8,
+      "accuracy": 0.89875
+    },
+    {
+      "depth": 16,
+      "accuracy": 0.89875
+    }
+  ],
+  "trm": [
+    {
+      "depth": 1,
+      "accuracy": 0.10125
+    },
+    {
+      "depth": 2,
+      "accuracy": 0.2025
+    },
+    {
+      "depth": 4,
+      "accuracy": 0.4
+    },
+    {
+      "depth": 8,
+      "accuracy": 0.7675
+    },
+    {
+      "depth": 16,
+      "accuracy": 0.7675
+    }
+  ]
+}

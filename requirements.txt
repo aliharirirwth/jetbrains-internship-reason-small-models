@@ -1,0 +1,8 @@
+# Task 1: word2vec from scratch (pure NumPy)
+numpy>=1.20.0,<2.0.0
+
+# Tests
+pytest>=7.0.0
+
+# Optional: for downloading a small corpus (e.g. text8) without external deps
+# requests>=2.25.0
